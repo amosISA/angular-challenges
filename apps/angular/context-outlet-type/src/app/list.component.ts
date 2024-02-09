@@ -24,8 +24,8 @@ import {
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ListComponent<TItem extends object> {
-  @Input() list!: TItem[];
+export class ListComponent<T> {
+  @Input() list!: T[];
 
   @ContentChild('listRef', { read: TemplateRef })
   listTemplateRef!: TemplateRef<unknown>;
