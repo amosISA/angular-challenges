@@ -13,7 +13,7 @@ hero:
       icon: right-arrow
       variant: primary
     - text: Ir para o desafio mais recente
-      link: /pt/challenges/angular/43-signal-input/
+      link: /pt/challenges/typescript/47-enums-vs-union-types/
       icon: rocket
     - text: Dar uma estrela
       link: https://github.com/tomalaforge/angular-challenges
@@ -23,14 +23,21 @@ hero:
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 import MyIcon from '../../../components/MyIcon.astro';
+import SubscriptionForm from '../../../components/SubscriptionForm.astro';
 
 <CardGrid>
-  <Card title="43 Desafios">
-    Este repositório possui 43 desafios relacionados a <b>Angular</b>, <b>Nx</b>, <b>RxJS</b>,
+  <Card title="47 Desafios">
+    Este repositório possui 47 Desafios relacionados a <b>Angular</b>, <b>Nx</b>, <b>RxJS</b>,
     <b>Ngrx</b> e <b>Typescript</b>.
     Esses desafios são voltados para problemas reais ou funcionalidades específicas afim de
     melhorar suas habilidades.
   </Card>
+
+{' '}
+
+<Card title="Inscreva-se para ser notificado do desafio mais recente">
+  <SubscriptionForm isNote={false} lang="pt" />
+</Card>
 
 {' '}
 

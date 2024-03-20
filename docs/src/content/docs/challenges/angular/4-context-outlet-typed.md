@@ -2,6 +2,11 @@
 title: 🔴 Typed ContextOutlet
 description: Challenge 4 is about strongly typing ngContextOutlet directives
 author: thomas-laforge
+contributors:
+  - tomalaforge
+  - tomer953
+  - svenson95
+  - jdegand
 challengeNumber: 4
 command: angular-context-outlet-type
 blogLink: https://medium.com/@thomas.laforge/ngtemplateoutlet-type-checking-5d2dcb07a2c6
@@ -17,9 +22,9 @@ However the context of **NgTemplateOutlet** type is **Object**. But with the hel
 
 ## Statement
 
-In this exercice, we want to learn how to strongly type our ng-template in our AppComponent.
+In this exercise, we want to learn how to strongly type our ng-template in our AppComponent.
 
-This exercice has two levels of complexity.
+This exercise has two levels of complexity.
 
 ### Level 1: known Interface
 
